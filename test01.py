@@ -38,10 +38,6 @@ data_normalized_l1_scaled = preprocessing.normalize(data_scaled_minmax, norm='l1
 print("\nL1 normalized data from scaled data:\n", data_normalized_l1_scaled)
 
 
-
-import numpy as np
-from sklearn import preprocessing
-
 # Sample input labels
 input_labels = ['red', 'black', 'red', 'green', 'black', 'yellow', 'white']
 # Create label encoder and fit the labels
