@@ -26,7 +26,7 @@ def visualize_dataset(X, title='test'):
     classifier.fit(val_x, val_y)
 
     output = classifier.predict(val_x)
-    print(output)
+
     plt.plot(output, color="blue", linewidth=4)
 
     plt.show()
